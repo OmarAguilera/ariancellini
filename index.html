@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  <link rel="stylesheet" href="assets/css/bootstrap-carousel.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Art</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-sm-10 mx-auto">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center w-100 d-sm-none">
+          <button class="navbar-toggler border-0 shadow-none text-white fs-3 btn #collapsibleNavId d-sm-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-list-ul"></i>
+          </button>
+          
+          <div class="logo">
+            <img src="assets/imgs/arian-nav-logo.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="collapse navbar-collapse " id="collapsibleNavId">
+          <ul class="navbar-nav me-auto  mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#on-sale" aria-current="page">On Sale <span
+                  class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mx-auto mt-2 mt-lg-0 d-none d-sm-flex">
+            <li class="nav-item">
+              <div class="logo">
+                <img src="assets/imgs/arian-nav-logo.png" alt="" class="img-fluid">
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#orders">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="img-wrapper">
+        <img src="assets/imgs/Copia-de-banner.png" alt="" class="img-fluid">
+        
+        <div class="container">
+          <div class="hero-meta">
+            <h1>Arian Cellini</h1>
+            <h2>Artist</h2>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    <section class="sale-section section-padding" id="on-sale">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-5 offset-xl-4 ps-5 ps-sm-0">
+            <div class="title-wrapper">
+              <h1 class="title">Paintings on Sale</h1>
+              <p class="sub-title">Click over the piece for more information</p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row align-items-center gy-5">
+              <div class="col-xl-4 ps-5 pe-5">
+                <div class="sales-target-wrapper">
+                  <div class="sales-shape sales-shape1"></div>
+                  <div class="sales-shape sales-shape2"></div>
+                  <div class="sales-shape sales-shape3"></div>
+                  <div class="sales-shape sales-shape4"></div>
+                  <ul>
+                    <li class="sale-target sale1 active" data="0">
+                      <i class="fa fa-palette"></i>
+                      Musicians
+                    </li>
+                    <li class="sale-target sale2" data="1">
+                      <i class="fa fa-palette"></i>
+                      Portrait
+                    </li>
+                    <li class="sale-target sale3" data="2">
+                      <i class="fa fa-palette"></i>
+                      Landscape
+                    </li>
+                    <li class="sale-target sale4" data="3">
+                      <i class="fa fa-palette"></i>
+                      People
+                    </li>
+                    <li class="sale-target sale5" data="4">
+                      <i class="fa fa-palette"></i>
+                      Instuments
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-8">
+                <div class="owl-carousel sales-slider">
+                  <div class="item" id="sale1">
+                    <img src="assets/imgs/Copia-de-a.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="item" id="sale2">
+                    <img src="assets/imgs/Copia-de-b.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="item" id="sale3">
+                    <img src="assets/imgs/Copia-de-c.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="item" id="sale4">
+                    <img src="assets/imgs/Copia-de-d.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="item" id="sale5">
+                    <img src="assets/imgs/Copia-de-a.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="gallery-section section-padding" id="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-wrapper">
+              <h1 class="title">Gallery</h1>
+              <p class="sub-title">If you are currently Ecuador City, you can visit de gallery to meet my masterpieces on person.</p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row gy-4">
+              <div class="col-xl-8">
+                <div class="row row-cols-xxl-5 row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-2 gallery-wrapper gx-sm-4 gx-3 gy-sm-4 gy-3">
+                  <div class="col">
+                    <a href="assets/imgs/arts/art1.png" class="image-popup-vertical-fit" title="art1">
+                      <img src="assets/imgs/arts/art1.png" alt="art1.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art2.png" class="image-popup-vertical-fit" title="art2">
+                      <img src="assets/imgs/arts/art2.png" alt="art2.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art3.png" class="image-popup-vertical-fit" title="art3">
+                      <img src="assets/imgs/arts/art3.png" alt="art3.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art4.png" class="image-popup-vertical-fit" title="art4">
+                      <img src="assets/imgs/arts/art4.png" alt="art4.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art5.png" class="image-popup-vertical-fit" title="art5">
+                      <img src="assets/imgs/arts/art5.png" alt="art5.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art6.png" class="image-popup-vertical-fit" title="art6">
+                      <img src="assets/imgs/arts/art6.png" alt="art6.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art7.png" class="image-popup-vertical-fit" title="art7">
+                      <img src="assets/imgs/arts/art7.png" alt="art7.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art8.png" class="image-popup-vertical-fit" title="art8">
+                      <img src="assets/imgs/arts/art8.png" alt="art8.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art9.png" class="image-popup-vertical-fit" title="art9">
+                      <img src="assets/imgs/arts/art9.png" alt="art9.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art10.png" class="image-popup-vertical-fit" title="art10">
+                      <img src="assets/imgs/arts/art10.png" alt="art10.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art11.png" class="image-popup-vertical-fit" title="art11">
+                      <img src="assets/imgs/arts/art11.png" alt="art11.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art12.png" class="image-popup-vertical-fit" title="art12">
+                      <img src="assets/imgs/arts/art12.png" alt="art12.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art13.png" class="image-popup-vertical-fit" title="art13">
+                      <img src="assets/imgs/arts/art13.png" alt="art13.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art14.png" class="image-popup-vertical-fit" title="art14">
+                      <img src="assets/imgs/arts/art14.png" alt="art14.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                  <div class="col">
+                    <a href="assets/imgs/arts/art15.png" class="image-popup-vertical-fit" title="art15">
+                      <img src="assets/imgs/arts/art15.png" alt="art15.png" class="img-fluid">
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="mapouter">
+                  <div class="gmap_canvas"><iframe
+                      src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                      frameborder="0" scrolling="no"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="who-section section-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="title-wrapper">
+              <h1 class="title">Who I am</h1>
+            </div>
+            <div class="how-text">
+              <p>1m a painter and professional violinist based on Ecuador City with 30 years doing what I love. <br>
+                (50% music, 50% painting)</p>
+              <p>Now I'm currently looking for share my art as far a it can goes.</p>
+              <p>As you may noticed, most of my paintings are related with music.</p>
+              <p>Thanks for being interested on my work.</p>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <img src="assets/imgs/arian-who-i-am.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="social-icons" id="orders">
+      <div class="container">
+        <ul>
+          <li><a href=""><img src="assets/imgs/icons8-facebook-nuevo-100-3.png" alt=""></a></li>
+          <li><a href=""><img src="assets/imgs/icons8-instagram-100-4.png" alt=""></a></li>
+        </ul>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="section-padding">
+    <nav class="navbar navbar-expand-sm col-xxl-5 col-xl-6 col-lg-6 col-md-8 col-sm-10 mx-auto position-relative">
+      <div class="container">
+        <div class="collapse navbar-collapse " id="collapsibleNavId">
+          <ul class="navbar-nav me-auto  mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#on-sale" aria-current="page">On Sale <span
+                  class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mx-auto mt-2 mt-lg-0 d-none d-sm-flex">
+            <li class="nav-item">
+              <div class="logo">
+                <img src="assets/imgs/arian-nav-logo.png" alt="" class="img-fluid">
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#orders">Orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex justify-content-between align-items-center w-100 d-sm-none">
+          <button class="navbar-toggler border-0 shadow-none text-white fs-3 btn #collapsibleNavId d-sm-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-list-ul"></i>
+          </button>
+          
+          <div class="logo">
+            <img src="assets/imgs/arian-nav-logo.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </nav>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
